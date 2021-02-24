@@ -15,11 +15,11 @@ import javafx.scene.control.Label;
 public class FXMLController implements Initializable {
     
     @FXML
-    private Label lblOut;
+    private Label testbutton;
     
     @FXML
     private void btnClickAction(ActionEvent event) {
-        lblOut.setText("Hello World!");
+        testbutton.setText("Hello World!");
     }
     
     @Override
